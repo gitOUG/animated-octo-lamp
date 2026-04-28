@@ -2,7 +2,8 @@ name: Deploy to Cloudflare Pages
 
 on:
   push:
-    branches: [ main ] # 或者是你的主分支名
+    branches: [ main ]
+  workflow_dispatch: 
 
 jobs:
   deploy:
